@@ -1,0 +1,624 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		537E550229533BE30099F03B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 537E550129533BE30099F03B /* AppDelegate.swift */; };
+		537E550429533BE30099F03B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 537E550329533BE30099F03B /* SceneDelegate.swift */; };
+		537E550629533BE30099F03B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 537E550529533BE30099F03B /* ViewController.swift */; };
+		537E550929533BE30099F03B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 537E550729533BE30099F03B /* Main.storyboard */; };
+		537E550C29533BE30099F03B /* VeloRide.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 537E550A29533BE30099F03B /* VeloRide.xcdatamodeld */; };
+		537E550E29533BE40099F03B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 537E550D29533BE40099F03B /* Assets.xcassets */; };
+		537E551129533BE40099F03B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 537E550F29533BE40099F03B /* LaunchScreen.storyboard */; };
+		537E551C29533BE40099F03B /* VeloRideTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 537E551B29533BE40099F03B /* VeloRideTests.swift */; };
+		537E552629533BE40099F03B /* VeloRideUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 537E552529533BE40099F03B /* VeloRideUITests.swift */; };
+		537E552829533BE40099F03B /* VeloRideUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 537E552729533BE40099F03B /* VeloRideUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		537E551829533BE40099F03B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 537E54F629533BE20099F03B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 537E54FD29533BE20099F03B;
+			remoteInfo = VeloRide;
+		};
+		537E552229533BE40099F03B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 537E54F629533BE20099F03B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 537E54FD29533BE20099F03B;
+			remoteInfo = VeloRide;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		537E54FE29533BE20099F03B /* VeloRide.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VeloRide.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		537E550129533BE30099F03B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		537E550329533BE30099F03B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		537E550529533BE30099F03B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		537E550829533BE30099F03B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		537E550B29533BE30099F03B /* VeloRide.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = VeloRide.xcdatamodel; sourceTree = "<group>"; };
+		537E550D29533BE40099F03B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		537E551029533BE40099F03B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		537E551229533BE40099F03B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		537E551729533BE40099F03B /* VeloRideTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VeloRideTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		537E551B29533BE40099F03B /* VeloRideTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VeloRideTests.swift; sourceTree = "<group>"; };
+		537E552129533BE40099F03B /* VeloRideUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VeloRideUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		537E552529533BE40099F03B /* VeloRideUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VeloRideUITests.swift; sourceTree = "<group>"; };
+		537E552729533BE40099F03B /* VeloRideUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VeloRideUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		537E54FB29533BE20099F03B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		537E551429533BE40099F03B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		537E551E29533BE40099F03B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		537E54F529533BE20099F03B = {
+			isa = PBXGroup;
+			children = (
+				537E550029533BE20099F03B /* VeloRide */,
+				537E551A29533BE40099F03B /* VeloRideTests */,
+				537E552429533BE40099F03B /* VeloRideUITests */,
+				537E54FF29533BE20099F03B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		537E54FF29533BE20099F03B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				537E54FE29533BE20099F03B /* VeloRide.app */,
+				537E551729533BE40099F03B /* VeloRideTests.xctest */,
+				537E552129533BE40099F03B /* VeloRideUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		537E550029533BE20099F03B /* VeloRide */ = {
+			isa = PBXGroup;
+			children = (
+				537E550129533BE30099F03B /* AppDelegate.swift */,
+				537E550329533BE30099F03B /* SceneDelegate.swift */,
+				537E550529533BE30099F03B /* ViewController.swift */,
+				537E550729533BE30099F03B /* Main.storyboard */,
+				537E550D29533BE40099F03B /* Assets.xcassets */,
+				537E550F29533BE40099F03B /* LaunchScreen.storyboard */,
+				537E551229533BE40099F03B /* Info.plist */,
+				537E550A29533BE30099F03B /* VeloRide.xcdatamodeld */,
+			);
+			path = VeloRide;
+			sourceTree = "<group>";
+		};
+		537E551A29533BE40099F03B /* VeloRideTests */ = {
+			isa = PBXGroup;
+			children = (
+				537E551B29533BE40099F03B /* VeloRideTests.swift */,
+			);
+			path = VeloRideTests;
+			sourceTree = "<group>";
+		};
+		537E552429533BE40099F03B /* VeloRideUITests */ = {
+			isa = PBXGroup;
+			children = (
+				537E552529533BE40099F03B /* VeloRideUITests.swift */,
+				537E552729533BE40099F03B /* VeloRideUITestsLaunchTests.swift */,
+			);
+			path = VeloRideUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		537E54FD29533BE20099F03B /* VeloRide */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 537E552B29533BE40099F03B /* Build configuration list for PBXNativeTarget "VeloRide" */;
+			buildPhases = (
+				537E54FA29533BE20099F03B /* Sources */,
+				537E54FB29533BE20099F03B /* Frameworks */,
+				537E54FC29533BE20099F03B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VeloRide;
+			productName = VeloRide;
+			productReference = 537E54FE29533BE20099F03B /* VeloRide.app */;
+			productType = "com.apple.product-type.application";
+		};
+		537E551629533BE40099F03B /* VeloRideTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 537E552E29533BE40099F03B /* Build configuration list for PBXNativeTarget "VeloRideTests" */;
+			buildPhases = (
+				537E551329533BE40099F03B /* Sources */,
+				537E551429533BE40099F03B /* Frameworks */,
+				537E551529533BE40099F03B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				537E551929533BE40099F03B /* PBXTargetDependency */,
+			);
+			name = VeloRideTests;
+			productName = VeloRideTests;
+			productReference = 537E551729533BE40099F03B /* VeloRideTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		537E552029533BE40099F03B /* VeloRideUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 537E553129533BE40099F03B /* Build configuration list for PBXNativeTarget "VeloRideUITests" */;
+			buildPhases = (
+				537E551D29533BE40099F03B /* Sources */,
+				537E551E29533BE40099F03B /* Frameworks */,
+				537E551F29533BE40099F03B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				537E552329533BE40099F03B /* PBXTargetDependency */,
+			);
+			name = VeloRideUITests;
+			productName = VeloRideUITests;
+			productReference = 537E552129533BE40099F03B /* VeloRideUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		537E54F629533BE20099F03B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					537E54FD29533BE20099F03B = {
+						CreatedOnToolsVersion = 14.1;
+					};
+					537E551629533BE40099F03B = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = 537E54FD29533BE20099F03B;
+					};
+					537E552029533BE40099F03B = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = 537E54FD29533BE20099F03B;
+					};
+				};
+			};
+			buildConfigurationList = 537E54F929533BE20099F03B /* Build configuration list for PBXProject "VeloRide" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 537E54F529533BE20099F03B;
+			productRefGroup = 537E54FF29533BE20099F03B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				537E54FD29533BE20099F03B /* VeloRide */,
+				537E551629533BE40099F03B /* VeloRideTests */,
+				537E552029533BE40099F03B /* VeloRideUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		537E54FC29533BE20099F03B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				537E551129533BE40099F03B /* LaunchScreen.storyboard in Resources */,
+				537E550E29533BE40099F03B /* Assets.xcassets in Resources */,
+				537E550929533BE30099F03B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		537E551529533BE40099F03B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		537E551F29533BE40099F03B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		537E54FA29533BE20099F03B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				537E550629533BE30099F03B /* ViewController.swift in Sources */,
+				537E550229533BE30099F03B /* AppDelegate.swift in Sources */,
+				537E550429533BE30099F03B /* SceneDelegate.swift in Sources */,
+				537E550C29533BE30099F03B /* VeloRide.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		537E551329533BE40099F03B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				537E551C29533BE40099F03B /* VeloRideTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		537E551D29533BE40099F03B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				537E552829533BE40099F03B /* VeloRideUITestsLaunchTests.swift in Sources */,
+				537E552629533BE40099F03B /* VeloRideUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		537E551929533BE40099F03B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 537E54FD29533BE20099F03B /* VeloRide */;
+			targetProxy = 537E551829533BE40099F03B /* PBXContainerItemProxy */;
+		};
+		537E552329533BE40099F03B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 537E54FD29533BE20099F03B /* VeloRide */;
+			targetProxy = 537E552229533BE40099F03B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		537E550729533BE30099F03B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				537E550829533BE30099F03B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		537E550F29533BE40099F03B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				537E551029533BE40099F03B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		537E552929533BE40099F03B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		537E552A29533BE40099F03B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		537E552C29533BE40099F03B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 44ZA64HFPA;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = VeloRide/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = oleyner.VeloRide;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		537E552D29533BE40099F03B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 44ZA64HFPA;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = VeloRide/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = oleyner.VeloRide;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		537E552F29533BE40099F03B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 44ZA64HFPA;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = oleyner.VeloRideTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VeloRide.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/VeloRide";
+			};
+			name = Debug;
+		};
+		537E553029533BE40099F03B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 44ZA64HFPA;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = oleyner.VeloRideTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VeloRide.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/VeloRide";
+			};
+			name = Release;
+		};
+		537E553229533BE40099F03B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 44ZA64HFPA;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = oleyner.VeloRideUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = VeloRide;
+			};
+			name = Debug;
+		};
+		537E553329533BE40099F03B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 44ZA64HFPA;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = oleyner.VeloRideUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = VeloRide;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		537E54F929533BE20099F03B /* Build configuration list for PBXProject "VeloRide" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				537E552929533BE40099F03B /* Debug */,
+				537E552A29533BE40099F03B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		537E552B29533BE40099F03B /* Build configuration list for PBXNativeTarget "VeloRide" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				537E552C29533BE40099F03B /* Debug */,
+				537E552D29533BE40099F03B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		537E552E29533BE40099F03B /* Build configuration list for PBXNativeTarget "VeloRideTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				537E552F29533BE40099F03B /* Debug */,
+				537E553029533BE40099F03B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		537E553129533BE40099F03B /* Build configuration list for PBXNativeTarget "VeloRideUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				537E553229533BE40099F03B /* Debug */,
+				537E553329533BE40099F03B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		537E550A29533BE30099F03B /* VeloRide.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				537E550B29533BE30099F03B /* VeloRide.xcdatamodel */,
+			);
+			currentVersion = 537E550B29533BE30099F03B /* VeloRide.xcdatamodel */;
+			path = VeloRide.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 537E54F629533BE20099F03B /* Project object */;
+}
